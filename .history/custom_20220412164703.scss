@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    padding: 20px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.links {
+    position: absolute;
+    top: 7%;
+    width: 100%;
+    display: flex;
+    padding: 2%;
+    color: purple;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-right: 1em;
+    margin-left: 1em;
+    list-style: none;
+}
+
+.content-box {
+    display: grid;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.5em
+}

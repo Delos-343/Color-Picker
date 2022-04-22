@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 2%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    padding: 20px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.content-box {
+    display: grid;
+}
+
+button {
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 600;
+    font-size: 1.5em;
+}
